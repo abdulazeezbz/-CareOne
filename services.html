@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareOne Services Ltd. | Our Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>body { font-family: 'Inter', sans-serif; }</style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased relative">
+
+    <header class="fixed w-full top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100 shadow-sm transition-all">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <a href="index.html" class="flex-shrink-0 flex items-center gap-2">
+                    <i class="fas fa-heart-pulse text-blue-600 text-3xl"></i>
+                    <span class="font-bold text-2xl tracking-tight text-slate-900">CareOne</span>
+                </a>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">Home</a>
+                    <a href="about.html" class="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">About</a>
+                    <a href="services.html" class="text-sm font-semibold text-blue-600">Services</a>
+                    <a href="contact.html" class="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">Contact</a>
+                </nav>
+                <div class="hidden md:flex">
+                    <a href="contact.html" class="bg-blue-600 text-white px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-blue-700 transition-all">Get a Quote</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-slate-600 hover:text-blue-600"><i class="fas fa-bars text-2xl"></i></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="mobile-menu" class="fixed inset-0 bg-slate-900/95 backdrop-blur-lg z-[100] transform translate-x-full transition-transform duration-300 md:hidden flex flex-col justify-center items-center">
+        <button id="close-menu-btn" class="absolute top-6 right-6 text-slate-300 hover:text-white p-2"><i class="fas fa-times text-3xl"></i></button>
+        <nav class="flex flex-col space-y-8 text-center w-full px-6">
+            <a href="index.html" class="text-3xl font-semibold text-white hover:text-blue-400">Home</a>
+            <a href="about.html" class="text-3xl font-semibold text-white hover:text-blue-400">About</a>
+            <a href="services.html" class="text-3xl font-semibold text-blue-400">Services</a>
+            <a href="contact.html" class="text-3xl font-semibold text-white hover:text-blue-400">Contact</a>
+        </nav>
+    </div>
+
+    <section class="pt-40 pb-20 bg-slate-900 text-center relative overflow-hidden">
+        <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=2070&q=80')] opacity-20 object-cover mix-blend-overlay"></div>
+        <div class="relative z-10 max-w-3xl mx-auto px-6">
+            <h1 class="text-5xl font-bold text-white mb-4">Our Services</h1>
+            <p class="text-xl text-slate-300">A comprehensive suite of solutions for modern healthcare and infrastructure.</p>
+        </div>
+    </section>
+
+    <section class="py-24">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10 mb-20">
+                <div class="bg-white p-10 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group">
+                    <div class="w-16 h-16 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-blue-600 transition-all">
+                        <i class="fas fa-laptop-code text-2xl text-blue-600 group-hover:text-white"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-slate-900 mb-4">Digital Solutions</h4>
+                    <p class="text-slate-600 leading-relaxed">We provide practical digital support that helps businesses and organizations improve visibility, communication, and operational efficiency through modern digital solutions.</p>
+                </div>
+                <div class="bg-white p-10 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group">
+                    <div class="w-16 h-16 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-blue-600 transition-all">
+                        <i class="fas fa-truck-medical text-2xl text-blue-600 group-hover:text-white"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-slate-900 mb-4">Emergency Care Services</h4>
+                    <p class="text-slate-600 leading-relaxed">We support urgent response needs with prompt, organized, and dependable emergency care solutions for hospitals and clinics.</p>
+                </div>
+                <div class="bg-white p-10 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group">
+                    <div class="w-16 h-16 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-blue-600 transition-all">
+                        <i class="fas fa-hospital text-2xl text-blue-600 group-hover:text-white"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-slate-900 mb-4">Hospital Equipment</h4>
+                    <p class="text-slate-600 leading-relaxed">We supply and support the sourcing of quality hospital and clinic equipment for healthcare facilities of different sizes and requirements.</p>
+                </div>
+                <div class="bg-white p-10 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group">
+                    <div class="w-16 h-16 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-blue-600 transition-all">
+                        <i class="fas fa-user-gear text-2xl text-blue-600 group-hover:text-white"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-slate-900 mb-4">Hospital Management Consultants</h4>
+                    <p class="text-slate-600 leading-relaxed">We offer advisory services to hospitals, clinics, and healthcare investors seeking improved administration, workflow, and service delivery.</p>
+                </div>
+                <div class="bg-white p-10 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group">
+                    <div class="w-16 h-16 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-blue-600 transition-all">
+                        <i class="fas fa-user-graduate text-2xl text-blue-600 group-hover:text-white"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-slate-900 mb-4">Specialized Medical Care Training</h4>
+                    <p class="text-slate-600 leading-relaxed">We deliver targeted training programs for healthcare workers, caregivers, support staff, and organizations seeking to improve service quality.</p>
+                </div>
+                <div class="bg-white p-10 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group">
+                    <div class="w-16 h-16 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-blue-600 transition-all">
+                        <i class="fas fa-bullhorn text-2xl text-blue-600 group-hover:text-white"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-slate-900 mb-4">Marketing Promotion</h4>
+                    <p class="text-slate-600 leading-relaxed">We help brands, services, and events gain visibility through strategic marketing promotion campaigns.</p>
+                </div>
+                <div class="bg-white p-10 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group">
+                    <div class="w-16 h-16 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-blue-600 transition-all">
+                        <i class="fas fa-ship text-2xl text-blue-600 group-hover:text-white"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-slate-900 mb-4">Importation</h4>
+                    <p class="text-slate-600 leading-relaxed">We assist with the importation of goods and equipment needed by businesses, institutions, and project owners.</p>
+                </div>
+                <div class="bg-white p-10 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group">
+                    <div class="w-16 h-16 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-blue-600 transition-all">
+                        <i class="fas fa-hard-hat text-2xl text-blue-600 group-hover:text-white"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-slate-900 mb-4">General Contractor</h4>
+                    <p class="text-slate-600 leading-relaxed">We undertake general contracting services for projects, coordinating labor, materials, planning, and site execution.</p>
+                </div>
+                <div class="bg-emerald-50 border-emerald-200 bg-gradient-to-br from-emerald-500/5 p-10 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-emerald-200 group cursor-pointer">
+                    <div class="w-16 h-16 bg-emerald-100 group-hover:bg-emerald-500 rounded-xl flex items-center justify-center mb-6 transition-all">
+                        <i class="fas fa-chart-line-up text-2xl text-emerald-600 group-hover:text-white"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-slate-900 mb-4">Investment Program</h4>
+                    <p class="text-slate-600 leading-relaxed mb-6">Structured investment program with attractive returns: <strong>6-month: 15% | 12-month: 30%</strong> indicative returns.</p>
+                    <a href="contact.html" class="inline-block bg-emerald-600 text-white px-6 py-2 rounded-full font-semibold text-sm hover:bg-emerald-700 transition-all">Learn More</a>
+                </div>
+            </div>
+
+            <div class="text-center mt-16">
+                <a href="contact.html" class="bg-slate-900 text-white px-12 py-5 rounded-full font-bold text-lg hover:bg-blue-600 transition-all shadow-xl hover:shadow-2xl">
+                    Get Started with CareOne Today
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-950 text-slate-400 py-12 border-t border-slate-900">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 text-center md:flex md:justify-between items-center">
+            <p>&copy; 2026 CareOne Services Ltd. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        document.getElementById('close-menu-btn').addEventListener('click', () => { mobileMenu.classList.add('translate-x-full'); document.body.style.overflow = ''; });
+        mobileMenuBtn.addEventListener('click', () => { mobileMenu.classList.remove('translate-x-full'); document.body.style.overflow = 'hidden'; });
+    </script>
+</body>
+</html>
